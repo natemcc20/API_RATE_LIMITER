@@ -28,6 +28,11 @@ python app.py
 ## Testing
 
 ```bash
+python app.py
+```
+In a seperate terminal.
+
+```bash
 python test.py
 ```
 
