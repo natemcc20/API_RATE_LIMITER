@@ -13,7 +13,7 @@ MAX_REQUESTS = 10    #max requests per window (sliding window)
 BUCKET_CAPACITY = 10          #max tokens
 REFILL_RATE = 10 / 60         #tokens per second 10 per min
 
-ALGORITHM = 'token_bucket'  #sliding_window or token_bucket
+ALGORITHM = 'sliding_window'  #sliding_window or token_bucket
 
 #Space
 request_log = defaultdict(list)   #timestamps for each IP
