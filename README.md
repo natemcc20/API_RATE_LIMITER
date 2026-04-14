@@ -4,15 +4,15 @@ Flask API with two rate limiting algorithms built to understand how production A
 
 Why I built this
 
-Rate limiting is something every real API uses — AWS, Stripe, you name it. I wanted to actually implement it and understand the tradeoff between algorithms, not just read about it.
+Rate limiting is something every real API uses. AWS, Stripe, you name it. I wanted to actually implement it and understand the tradeoff between algorithms, not just read about it.
 
 Algorithms
 
 Sliding Window
-Tracks exact request timestamps in a rolling time window. Strict — once you hit the limit you're locked out until the full window clears. No partial recovery.
+Tracks exact request timestamps in a rolling time window. Strict, once you hit the limit you're locked out until the full window clears. No partial recovery.
 
 Token Bucket
-Each IP gets a bucket of tokens that refills continuously over time. More forgiving — if you wait a bit you get some tokens back without waiting for the full window to reset.
+Each IP gets a bucket of tokens that refills continuously over time. More forgiving if you wait a bit you get some tokens back without waiting for the full window to reset.
 
 ## Setup
 
