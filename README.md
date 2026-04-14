@@ -46,7 +46,7 @@ All tweakable at the top of app.py:
 ## Screenshots
 
 **Token Bucket** — partial recovery after 15 second wait
-![Token Bucket](screenshots/TOKEN BUCKET.png)
+![Token Bucket](screenshots/TOKEN_BUCKET.png)
 
 **Sliding Window** — all requests blocked after 15 second wait
-![Sliding Window](screenshots/SLIDING WINDOW.png)
+![Sliding Window](screenshots/SLIDING_WINDOW.png)
