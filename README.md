@@ -41,3 +41,12 @@ All tweakable at the top of app.py:
 - `WINDOW` — window size in seconds
 - `BUCKET_CAPACITY` — max tokens in the bucket
 - `REFILL_RATE` — how fast tokens refill
+
+
+## Screenshots
+
+**Token Bucket** — partial recovery after 15 second wait
+![Token Bucket](screenshots/token_bucket.png)
+
+**Sliding Window** — all requests blocked after 15 second wait
+![Sliding Window](screenshots/sliding_window.png)
